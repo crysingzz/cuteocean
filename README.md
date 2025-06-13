@@ -47,4 +47,10 @@ sudo apt-get install build-essential cmake libsfml-dev
 - **Algae** — водоросли, наследует `Entity`
 - **Logger** — система логирования (выводит поведение объектов в консоль)
 - **Global** — содержит глобальные параметры и настройки экосистемы
-
+###Запуск
+```bass
+mkdir build && cd build
+cmake ..
+make
+./ocean_main
+```
